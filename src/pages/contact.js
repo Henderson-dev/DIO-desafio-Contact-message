@@ -16,9 +16,10 @@ const ContactPage = () => {
     // Valida se os campos estão preenchidos no form
     const [validator, setValidator] = useState(false);
 
-    //
+    // Controla render de mensagens na tela
     const [render, setRender] = useState(false);
 
+    // Controla mensagem de sucesso na tela
     const [success, setSuccess] = useState(false);
 
     // Faz leitura do endpoint da API se render for verdadeiro
@@ -42,11 +43,11 @@ const ContactPage = () => {
             return setValidator(!validator);
         }
 
+        // Formata Json para envio dos dados do formulário apra API
         const bodyForm = {
             email: author,
             message: content,
         }
-
         fetch(url, {
             method:"POST",
             headers:{
@@ -54,6 +55,7 @@ const ContactPage = () => {
             },
             body: JSON.stringify(bodyForm)
         })
+        // Aguarda a resposta do envio
         .then((response) => response.json())
         .then((data)=>{
             // Retorna a mensagem enviada em formato json
@@ -66,23 +68,17 @@ const ContactPage = () => {
                 // Tira a mensagem da tela após 4 segundos
                 setTimeout(()=>{
                     setSuccess(false);
-                }, 4000)
-                
+                }, 4000);
             }
         })
 
         setAuthor('');
         setContent('');
-
-
-
-
     }
 
 
     return(
         <>
-
         <div className="wrap-form">
             <label>E-mail</label>
             <input type="text" name="input_email" value={author} onChange={(event)=>{setAuthor(event.target.value)}}></input>
@@ -125,5 +121,4 @@ const ContactPage = () => {
         </>
     )
 }
-
 export default ContactPage;
