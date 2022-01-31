@@ -55,7 +55,6 @@ const ContactPage = () => {
             },
             body: JSON.stringify(bodyForm)
         })
-        // Aguarda a resposta do envio
         .then((response) => response.json())
         .then((data)=>{
             // Retorna a mensagem enviada em formato json
@@ -68,7 +67,7 @@ const ContactPage = () => {
                 // Tira a mensagem da tela após 4 segundos
                 setTimeout(()=>{
                     setSuccess(false);
-                }, 4000);
+                }, 4000)
             }
         })
 
