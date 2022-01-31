@@ -16,13 +16,18 @@ const ContactPage = () => {
     // Valida se os campos estão preenchidos no form
     const [validator, setValidator] = useState(false);
 
-    // Faz leitura do endpoint da API
+    //
+    const [render, setRender] = useState(false);
+
+    const [success, setSuccess] = useState(false);
+
+    // Faz leitura do endpoint da API se render for verdadeiro
     useEffect(async () => {
         const response = await fetch(url);
         const data = await response.json();
         //console.log(data);
         setMessage(data);
-    }, []);
+    }, [render]);
 
     //console.log(message);
 
@@ -49,6 +54,23 @@ const ContactPage = () => {
             },
             body: JSON.stringify(bodyForm)
         })
+        .then((response) => response.json())
+        .then((data)=>{
+            // Retorna a mensagem enviada em formato json
+            //console.log(data);
+            if(data.id) {
+                // valida se o Json retornado criou um ID dentro da API
+                setRender(true);
+                // Manda mensagem de sucesso na tela
+                setSuccess(true);
+                // Tira a mensagem da tela após 4 segundos
+                setTimeout(()=>{
+                    setSuccess(false);
+                }, 4000)
+                
+            }
+        })
+
         setAuthor('');
         setContent('');
 
@@ -73,6 +95,14 @@ const ContactPage = () => {
                     <strong>Por favor preencha todos os campos!</strong>
                 </div>
             }
+
+            {/* Quando mensagem enviada com sucesso */}
+            {success && 
+                <div className="validade">
+                    <strong>Mensagem enviada com sucesso!</strong>
+                </div>
+            }
+
             <input type="submit" value="Enviar" onClick={sendMessage}></input>
         </div>
         <div className="wrap-mensages">
