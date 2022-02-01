@@ -1,36 +1,35 @@
 // padrões iniciais
 html {
-    font-family: $font-default;
-    font-size: 10px;
-    overflow-x: hidden;
+  font-family: $font-default;
+  font-size: 10px;
+  overflow-x: hidden;
 }
 body {
-    font-family: $font-default;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    color: $dark;
-    // largura máxima para telas full HD
-    max-width: 1920px;
-    margin: 0 auto;
-    overflow-x: hidden;
+  font-family: $font-default;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  color: $dark;
+  // largura máxima para telas full HD
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 // tira o focus de todos os elementos
 *:focus {
-    outline: none;
+  outline: none;
 }
 
 strong {
-    font-style: normal;
-    font-weight: 600;
+  font-style: normal;
+  font-weight: 600;
 }
-
 
 /*
 =====================================================
@@ -39,10 +38,8 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
 =====================================================
 */
 @include media-breakpoint-up(sm) {
-
 }
 // 576px
-
 
 /*
 =====================================================
@@ -51,8 +48,6 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
 =====================================================
 */
 @include media-breakpoint-up(md) {
-
-
 }
 // 768px
 
@@ -63,8 +58,6 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
 =====================================================
 */
 @include media-breakpoint-up(lg) {
-
-
 }
 // 991px
 
@@ -75,6 +68,5 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
 =====================================================
 */
 @include media-breakpoint-up(xl) {
-
 }
 // 1200px

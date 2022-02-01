@@ -28,8 +28,8 @@ Author E-mail: teconet.arte@gmail.com
   --white: #ffffff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #2B84F0;
-  --secondary: #EEEEEE;
+  --primary: #2b84f0;
+  --secondary: #eeeeee;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -165,7 +165,7 @@ sup {
 }
 
 a {
-  color: #2B84F0;
+  color: #2b84f0;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2902,8 +2902,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #2B84F0;
-  border-color: #2B84F0;
+  background-color: #2b84f0;
+  border-color: #2b84f0;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
@@ -2921,8 +2921,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #ffffff;
-  background-color: #2B84F0;
-  border-color: #2B84F0;
+  background-color: #2b84f0;
+  border-color: #2b84f0;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #ffffff;
@@ -2936,8 +2936,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #212529;
-  background-color: #EEEEEE;
-  border-color: #EEEEEE;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
@@ -2955,8 +2955,8 @@ fieldset:disabled a.btn {
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #212529;
-  background-color: #EEEEEE;
-  border-color: #EEEEEE;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
   color: #212529;
@@ -3173,26 +3173,26 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #2B84F0;
-  border-color: #2B84F0;
+  color: #2b84f0;
+  border-color: #2b84f0;
 }
 .btn-outline-primary:hover {
   color: #ffffff;
-  background-color: #2B84F0;
-  border-color: #2B84F0;
+  background-color: #2b84f0;
+  border-color: #2b84f0;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(43, 132, 240, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(43, 132, 240, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #2B84F0;
+  color: #2b84f0;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #ffffff;
-  background-color: #2B84F0;
-  border-color: #2B84F0;
+  background-color: #2b84f0;
+  border-color: #2b84f0;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(43, 132, 240, 0.5);
@@ -3200,26 +3200,26 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #EEEEEE;
-  border-color: #EEEEEE;
+  color: #eeeeee;
+  border-color: #eeeeee;
 }
 .btn-outline-secondary:hover {
   color: #212529;
-  background-color: #EEEEEE;
-  border-color: #EEEEEE;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
 }
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #EEEEEE;
+  color: #eeeeee;
   background-color: transparent;
 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
   color: #212529;
-  background-color: #EEEEEE;
-  border-color: #EEEEEE;
+  background-color: #eeeeee;
+  border-color: #eeeeee;
 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
@@ -3390,7 +3390,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #2B84F0;
+  color: #2b84f0;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -3673,7 +3673,7 @@ input[type=button].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #ffffff;
   text-decoration: none;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -4057,8 +4057,8 @@ input[type=button].btn-block {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #ffffff;
-  border-color: #2B84F0;
-  background-color: #2B84F0;
+  border-color: #2b84f0;
+  background-color: #2b84f0;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(43, 132, 240, 0.25);
@@ -4116,8 +4116,8 @@ input[type=button].btn-block {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23ffffff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
 }
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #2B84F0;
-  background-color: #2B84F0;
+  border-color: #2b84f0;
+  background-color: #2b84f0;
 }
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23ffffff' d='M0 2h4'/%3e%3c/svg%3e");
@@ -4333,7 +4333,7 @@ input[type=button].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
   border: 0;
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -4368,7 +4368,7 @@ input[type=button].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
   border: 0;
   border-radius: 1rem;
   box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -4402,7 +4402,7 @@ input[type=button].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
   border: 0;
   border-radius: 1rem;
   box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -4530,7 +4530,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #ffffff;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
 }
 
 .nav-fill > .nav-link,
@@ -5315,7 +5315,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #2B84F0;
+  color: #2b84f0;
   background-color: #ffffff;
   border: 1px solid #dee2e6;
 }
@@ -5345,8 +5345,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #ffffff;
-  background-color: #2B84F0;
-  border-color: #2B84F0;
+  background-color: #2b84f0;
+  border-color: #2b84f0;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -5426,7 +5426,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #ffffff;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #ffffff;
@@ -5440,7 +5440,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 
 .badge-secondary {
   color: #212529;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 a.badge-secondary:hover, a.badge-secondary:focus {
   color: #212529;
@@ -5724,7 +5724,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #ffffff;
   text-align: center;
   white-space: nowrap;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
@@ -5818,8 +5818,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #ffffff;
-  background-color: #2B84F0;
-  border-color: #2B84F0;
+  background-color: #2b84f0;
+  border-color: #2b84f0;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6288,7 +6288,7 @@ a.close.disabled {
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  background-color: #2B84F0;
+  background-color: #2b84f0;
 }
 .modal-backdrop.fade {
   opacity: 0;
@@ -6962,7 +6962,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #2B84F0 !important;
+  background-color: #2b84f0 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6972,7 +6972,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #EEEEEE !important;
+  background-color: #eeeeee !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -7090,11 +7090,11 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #2B84F0 !important;
+  border-color: #2b84f0 !important;
 }
 
 .border-secondary {
-  border-color: #EEEEEE !important;
+  border-color: #eeeeee !important;
 }
 
 .border-success {
@@ -10959,7 +10959,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #2B84F0 !important;
+  color: #2b84f0 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10967,7 +10967,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #EEEEEE !important;
+  color: #eeeeee !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -11218,7 +11218,7 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
 */
 .wrap-form {
   width: 100%;
-  background-color: #ccc;
+  background-color: #a2d3c7;
   padding: 20px 40px;
 }
 .wrap-form label {
@@ -11229,35 +11229,36 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
 .wrap-form input[type=text] {
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
-  line-height: 3.2rem;
-  letter-spacing: 0.02em;
-  color: #000;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.05em;
+  color: #5b4c42;
   min-width: initial;
   width: 100%;
-  padding: 14px 27px;
-  background: #fff;
-  border-radius: 100px;
+  padding: 10px 15px;
+  background: #fef7e1;
+  border-radius: 6px;
   border: none;
+  margin-bottom: 20px;
 }
 .wrap-form textarea {
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
-  line-height: 3.2rem;
-  letter-spacing: 0.02em;
-  color: #000;
-  height: 180px;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.05em;
+  color: #5b4c42;
   min-width: initial;
   width: 100%;
-  padding: 14px 27px;
-  background: #fff;
-  border-radius: 35px;
+  padding: 10px 15px;
+  background: #fef7e1;
+  border-radius: 6px;
   border: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  min-height: 160px;
 }
 .wrap-form input[type=submit] {
-  background: #d35454;
+  background: #ef8e7d;
   margin-top: 15px;
   border: none;
   display: block;
@@ -11267,13 +11268,52 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.1em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: 16px 20px;
 }
 .wrap-form input[type=submit]:hover {
-  background-color: #000;
+  background-color: #e2aa87;
   color: #fff;
+}
+.wrap-form .validade {
+  padding: 10px;
+  background-color: #fff;
+  font-size: 1.4rem;
+  color: #ef8e7d;
+}
+
+.wrap-mensages {
+  padding: 40px;
+}
+.wrap-mensages .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.wrap-mensages .container .card {
+  position: relative;
+  display: block;
+  min-width: calc(33.3% - 20px);
+  margin: 10px;
+  background-color: #fef7e1;
+}
+.wrap-mensages .container .card .card-body h5 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+  color: #b54c0b;
+}
+.wrap-mensages .container .card .card-body .card-mensage {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.wrap-mensages .container .card .card-body span {
+  border-top: 1px solid #000;
+  float: right;
+  margin-bottom: 10px;
 }

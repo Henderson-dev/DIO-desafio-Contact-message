@@ -1,61 +1,99 @@
-
-.wrap-form{
+.wrap-form {
+  width: 100%;
+  background-color: $color4;
+  padding: 20px 40px;
+  label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 3px;
+  }
+  input[type="text"] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.05em;
+    color: #5b4c42;
+    min-width: initial;
     width: 100%;
-    background-color: #ccc;
-    padding: 20px 40px;
-    label{
-        font-size: 1.2rem;
-        display: block;
-        margin-bottom: 3px;
+    padding: 10px 15px;
+    background: $color3;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  textarea {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.05em;
+    color: #5b4c42;
+    min-width: initial;
+    width: 100%;
+    padding: 10px 15px;
+    background: $color3;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    min-height: 160px;
+  }
+  input[type="submit"] {
+    background: $color5;
+    margin-top: 15px;
+    border: none;
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    padding: 16px 20px;
+    &:hover {
+      background-color: $color2;
+      color: #fff;
     }
-    input[type="text"] {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.8rem;
-        line-height: 3.2rem;
-        letter-spacing: 0.02em;
-        color: #000;
-        min-width: initial;
-        width: 100%;
-        padding: 14px 27px;
-        background: #fff;
-        border-radius: 100px;
-        border: none;
-    }
-    textarea {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.8rem;
-        line-height: 3.2rem;
-        letter-spacing: 0.02em;
-        color: #000;
-        height: 180px;
-        min-width: initial;
-        width: 100%;
-        padding: 14px 27px;
-        background: #fff;
-        border-radius: 35px;
-        border: none;
-        margin-bottom: 30px;
-    }
-    input[type="submit"] {
-        background: rgb(211, 84, 84);
-        margin-top: 15px;
-        border: none;
-        display: block;
-        width: 100%;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 22px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        transition: all .2s ease-in-out;
-        padding: 16px 20px;
-        &:hover{
-          background-color: #000;
-          color: #fff;
+  }
+  .validade {
+    padding: 10px;
+    background-color: #fff;
+    font-size: 1.4rem;
+    color: $color5;
+  }
+}
+
+.wrap-mensages {
+  padding: 40px;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      position: relative;
+      display: block;
+      min-width: calc(33.3% - 20px);
+      margin: 10px;
+      background-color: $color3;
+      .card-body {
+        h5 {
+          font-family: $font-titles;
+          font-size: 1.9rem;
+          margin-bottom: 10px;
+          color: #b54c0b;
         }
-      }    
+        .card-mensage {
+          font-size: 1.2rem;
+          margin-bottom: 20px;
+        }
+        span {
+          border-top: 1px solid #000;
+          float: right;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
 }

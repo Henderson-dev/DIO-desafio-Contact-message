@@ -1,14 +1,22 @@
 // Base da fonte
 //https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap
 
-$font-default: 'Montserrat', Arial, sans-serif;
+$font-default: "Montserrat", Arial, sans-serif;
 // pesos da fonte 300;400;500;600;700;800
 
-$font-titles: 'Montserrat', Arial, sans-serif;
+$font-titles: "Montserrat", Arial, sans-serif;
+
+// Paleta de cores gera para o projeto em:
+// https://paletadecores.com/
+$color1: #edd8bb;
+$color2: #e2aa87;
+$color3: #fef7e1;
+$color4: #a2d3c7;
+$color5: #ef8e7d;
 
 // Cores
-$primary: #2B84F0;
-$secondary: #EEEEEE;
+$primary: #2b84f0;
+$secondary: #eeeeee;
 
 $preto: #404040;
 $dark: #404040;
@@ -17,10 +25,10 @@ $white: #ffffff;
 $cinza: #706f6f;
 $gray: #706f6f;
 
-$azul_claro: #2B84F0;
-$azul_escuro: #041F49;
-$cinza_claro: #EEEEEE;
-$azul_medio: #2769C1;
+$azul_claro: #2b84f0;
+$azul_escuro: #041f49;
+$cinza_claro: #eeeeee;
+$azul_medio: #2769c1;
 
 $link-color: $primary;
 
@@ -32,4 +40,3 @@ $enable-shadows: 1;
 // Customizando o modal
 $modal-backdrop-bg: $primary;
 $modal-backdrop-opacity: 1;
-
