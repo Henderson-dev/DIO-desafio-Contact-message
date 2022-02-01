@@ -1,0 +1,61 @@
+
+.wrap-form{
+    width: 100%;
+    background-color: #ccc;
+    padding: 20px 40px;
+    label{
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 3px;
+    }
+    input[type="text"] {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.02em;
+        color: #000;
+        min-width: initial;
+        width: 100%;
+        padding: 14px 27px;
+        background: #fff;
+        border-radius: 100px;
+        border: none;
+    }
+    textarea {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.02em;
+        color: #000;
+        height: 180px;
+        min-width: initial;
+        width: 100%;
+        padding: 14px 27px;
+        background: #fff;
+        border-radius: 35px;
+        border: none;
+        margin-bottom: 30px;
+    }
+    input[type="submit"] {
+        background: rgb(211, 84, 84);
+        margin-top: 15px;
+        border: none;
+        display: block;
+        width: 100%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        transition: all .2s ease-in-out;
+        padding: 16px 20px;
+        &:hover{
+          background-color: #000;
+          color: #fff;
+        }
+      }    
+}
