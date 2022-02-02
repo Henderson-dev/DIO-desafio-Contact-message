@@ -15,3 +15,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Project dependency
+
+The project needs to consume the API implemented in the "api-dioshopping" project.
+
+Project link [https://github.com/nathyts/api-dioshopping]
+
+For the project to work correctly, the application that maintains the database and API needs to be working and running at the address: http://localhost:5000
