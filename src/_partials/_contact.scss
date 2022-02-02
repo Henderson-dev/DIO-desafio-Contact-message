@@ -1,3 +1,13 @@
+header {
+  background-color: $color5;
+  padding: 20px 40px;
+  h1 {
+    margin: 0;
+    font-family: $font-titles;
+    font-weight: 700;
+    color: #fff;
+  }
+}
 .wrap-form {
   width: 100%;
   background-color: $color4;
@@ -16,6 +26,7 @@
     color: #5b4c42;
     min-width: initial;
     width: 100%;
+    max-width: 740px;
     padding: 10px 15px;
     background: $color3;
     border-radius: 6px;
@@ -31,6 +42,7 @@
     color: #5b4c42;
     min-width: initial;
     width: 100%;
+    max-width: 740px;
     padding: 10px 15px;
     background: $color3;
     border-radius: 6px;
@@ -43,7 +55,8 @@
     margin-top: 15px;
     border: none;
     display: block;
-    width: 100%;
+    width: 30%;
+    min-width: 150px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;

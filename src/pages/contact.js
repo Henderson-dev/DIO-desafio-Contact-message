@@ -74,6 +74,9 @@ const ContactPage = () => {
 
   return (
     <>
+      <header>
+        <h1>Deixe seu recado !</h1>
+      </header>
       <div className="wrap-form">
         <label>E-mail</label>
         <input

@@ -11216,6 +11216,17 @@ Extra large devices (large desktops, 1200px and up)
 Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
 =====================================================
 */
+header {
+  background-color: #ef8e7d;
+  padding: 20px 40px;
+}
+header h1 {
+  margin: 0;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
 .wrap-form {
   width: 100%;
   background-color: #a2d3c7;
@@ -11235,6 +11246,7 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
   color: #5b4c42;
   min-width: initial;
   width: 100%;
+  max-width: 740px;
   padding: 10px 15px;
   background: #fef7e1;
   border-radius: 6px;
@@ -11250,6 +11262,7 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
   color: #5b4c42;
   min-width: initial;
   width: 100%;
+  max-width: 740px;
   padding: 10px 15px;
   background: #fef7e1;
   border-radius: 6px;
@@ -11262,7 +11275,8 @@ Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpo
   margin-top: 15px;
   border: none;
   display: block;
-  width: 100%;
+  width: 30%;
+  min-width: 150px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
